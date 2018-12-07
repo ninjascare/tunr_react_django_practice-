@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
 import ArtistList from "./components/ArtistList";
-import Artist from "./components/Artist";
+// import Artist from "./components/Artist";
 import "./App.css";
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
                     </div>
                     <Switch>
                         <Route exact path="/" component={ArtistList}/>
-                        <Route path="/artist/:id" component={Artist}/>
+                        {/*<Route path="/artist/:id" component={Artist}/>*/}
                     </Switch>
                 </div>
             </Router>
